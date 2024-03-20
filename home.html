@@ -4,13 +4,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title></title>
+
+
 </head>
 <body>
 	<div class="container">
 		<div class="header">
+			<div class="icon">
+				<i class="material-icons" onclick="toggleNavigation()">&#xe5d2;</i>
+			</div>
 			<img src="newl.png" class="logopng"> 
-		<nav>
+			
+		<nav class="navigation">
 			
 			<ul>
 	
@@ -37,6 +44,16 @@
 	</div>
 
 	</div>
+
+
+	<script type="text/javascript">
+	
+		function toggleNavigation() {
+		  var navigation = document.querySelector('.navigation');
+		  navigation.style.display = (navigation.style.display === 'block') ? 'none' : 'block';
+		}
+		
+		</script>
 
 </body>
 </html>

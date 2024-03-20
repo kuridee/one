@@ -27,6 +27,9 @@
   display: flex;
   align-items: center; }
 
+.icon {
+  display: none; }
+
 ul, li, a {
   display: inline-block;
   text-decoration: none;
@@ -73,5 +76,16 @@ ul, li, a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: white; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 990px) {
+  .navigation {
+    display: none; }
+
+  .icon {
+    display: flex;
+    margin-left: 2em; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */

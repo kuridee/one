@@ -41,9 +41,12 @@ $textcolor: white;
 	width: 100lvw;
 	display: flex;
 	align-items: center;
-
-	
 }
+.icon{
+	display: none;
+}
+
+
 
 ul, li, a{
 	display: inline-block;
@@ -95,6 +98,30 @@ ul, li, a{
 	font-family: $family;
 	font-size: $fsize;
 	color: white;
+	
+}
+
+//media query
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 990px) {
+	.navigation{
+		display: none;
+	}
+	.icon{
+		display: flex;
+		margin-left: 2em;
+
+	}
+	
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
 	
 }
 
