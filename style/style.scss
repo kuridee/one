@@ -1,6 +1,6 @@
-$fsize: 2em;
-$fcolor: gray;
-$bgcolor: #FF6461;
+$fsize: 1em;
+$fcolor: #A6692D;;
+$bgcolor:white;
 $padding: 16px;
 
 *{
@@ -8,9 +8,18 @@ $padding: 16px;
 	padding: 0;
 }
 
+.container{
+	background-image: url('../sofa2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100lvh;
+	width: 100lvw;
+}
+
 .header{
 	background-color: $bgcolor;
-	height: 4rem;
+	height: 8rem;
 	width: 100lvw;
 	display: flex;
 	align-items: center;
@@ -21,8 +30,9 @@ ul, li, a{
 	text-decoration: none;
 	list-style: none;
 	padding-left: 1em;
-	color: white;
+	color: $fcolor;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: $fsize ;
 }
 
 
