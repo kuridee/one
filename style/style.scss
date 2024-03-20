@@ -49,7 +49,7 @@ ul, li, a{
 	display: inline-block;
 	text-decoration: none;
 	list-style: none;
-	padding-left: 1em;
+	padding-left: .75em;
 	color: $fcolor;
 	font-family: $family;
 	font-size: $fsize ;
@@ -78,7 +78,25 @@ ul, li, a{
 	margin-top: 2em;
 }
 
+.logopng{
+	max-width: 100%;
+	height: 60px;
+	border: 1px solid gray;
+	margin-left: 80px;
+}
+.nav-login{
+	margin-left: 400px;
 
+}
+
+.register{
+	background-color: $fcolor;
+	padding: 14px;
+	font-family: $family;
+	font-size: $fsize;
+	color: white;
+	
+}
 
 
 
