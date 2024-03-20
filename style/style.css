@@ -2,90 +2,31 @@
   margin: 0;
   padding: 0; }
 
-.container {
-  background-image: url("../sofa2.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100lvh;
-  width: 100lvw;
-  background-color: gray;
-  background-blend-mode: multiply; }
-
-.container-text {
-  height: 100lvh;
-  width: 100lvw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
-.header {
-  background-color: white;
-  height: 8rem;
-  width: 100lvw;
-  display: flex;
-  align-items: center; }
-
-.icon {
-  display: none; }
-
-ul, li, a {
-  display: inline-block;
-  text-decoration: none;
-  list-style: none;
-  padding-left: .75em;
-  color: #A6692D;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em; }
-
-.head-text {
-  font-size: 5em;
-  color: white;
-  padding-left: 2em;
-  padding-right: 2em;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold; }
-
-.head-cap {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 1em;
-  letter-spacing: 1.6px; }
-
-.shop-now {
-  background-color: #A6692D;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  color: white;
-  margin-top: 2em; }
-
-.logopng {
-  max-width: 100%;
-  height: 60px;
-  border: 1px solid gray;
-  margin-left: 80px; }
-
-.nav-login {
-  margin-left: 400px; }
-
-.register {
-  background-color: #A6692D;
-  padding: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  color: white; }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 990px) {
-  .navigation {
-    display: none; }
-
-  .icon {
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: white;
+    width: 100lvw;
+    height: 60px;
     display: flex;
-    margin-left: 2em; } }
+    align-items: center;
+    justify-content: center;
+    grid-gap: 65px; }
+
+  .logo {
+    height: 30px;
+    border: 1px solid black; }
+
+  .container {
+    background-image: url("../sofa2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100lvw;
+    background-color: gray;
+    background-blend-mode: multiply; } }
+/* Medium devices (landscape tablets, 768px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*# sourceMappingURL=style.css.map */
