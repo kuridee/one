@@ -3,10 +3,28 @@ $fcolor: gray;
 $bgcolor: #FF6461;
 $padding: 16px;
 
+*{
+	margin: 0;
+	padding: 0;
+}
 
 .header{
 	background-color: $bgcolor;
+	height: 4rem;
+	width: 100lvw;
+	display: flex;
+	align-items: center;
 }
+
+ul, li, a{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	padding-left: 1em;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 

@@ -1,4 +1,20 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .header {
-  background-color: #FF6461; }
+  background-color: #FF6461;
+  height: 4rem;
+  width: 100lvw;
+  display: flex;
+  align-items: center; }
+
+ul, li, a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
