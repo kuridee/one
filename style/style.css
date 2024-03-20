@@ -22,7 +22,7 @@
 
   .container {
     background-image: url("../sofa2.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
