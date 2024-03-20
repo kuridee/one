@@ -8,7 +8,17 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100lvh;
-  width: 100lvw; }
+  width: 100lvw;
+  background-color: gray;
+  background-blend-mode: multiply; }
+
+.container-text {
+  height: 100lvh;
+  width: 100lvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
 
 .header {
   background-color: white;
@@ -25,5 +35,27 @@ ul, li, a {
   color: #A6692D;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em; }
+
+.head-text {
+  font-size: 5em;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.head-cap {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 1.6px; }
+
+.shop-now {
+  background-color: #A6692D;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: white;
+  margin-top: 2em; }
 
 /*# sourceMappingURL=style.css.map */

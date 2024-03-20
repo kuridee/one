@@ -2,6 +2,8 @@ $fsize: 1em;
 $fcolor: #A6692D;;
 $bgcolor:white;
 $padding: 16px;
+$family: Arial, Helvetica, sans-serif;
+$textcolor: white;
 
 *{
 	margin: 0;
@@ -15,14 +17,32 @@ $padding: 16px;
 	background-position: center;
 	height: 100lvh;
 	width: 100lvw;
+	background-color: gray;
+	background-blend-mode: multiply;
+
 }
 
+.container-text{
+	height: 100lvh;
+	width: 100lvw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+
+
+
+	
+}
 .header{
 	background-color: $bgcolor;
 	height: 8rem;
 	width: 100lvw;
 	display: flex;
 	align-items: center;
+
+	
 }
 
 ul, li, a{
@@ -31,8 +51,31 @@ ul, li, a{
 	list-style: none;
 	padding-left: 1em;
 	color: $fcolor;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: $family;
 	font-size: $fsize ;
+}
+.head-text{
+	font-size: 5em;
+	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: $family;
+	font-weight: bold;
+}
+.head-cap{
+	font-family: $family;
+	color: $textcolor;
+	font-size: $fsize;
+	letter-spacing: 1.6px;
+}
+
+.shop-now{
+	background-color: $fcolor;
+	padding: 20px;
+	font-family: $family;
+	font-size: $fsize;
+	color: white;
+	margin-top: 2em;
 }
 
 
