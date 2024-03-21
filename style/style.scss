@@ -90,11 +90,34 @@ $textcolor: white;
 		color: white;
 		margin-top: 10px;
 		border: 1px solid white;
-		
+	}
 
+	.content_1{
+		display: block;
+		padding-top: 40px;
+		font-family: $family;
+	}
+
+	.box{
 		
+		height: auto;
+		width: 100lvw;
+		padding-top: 60px;
+		
+	
+	
+	}
+	.s1{
+		
+		max-width: 100%;
 	}
 	
+	.caption{
+		color: $fcolor;
+		font-size: 2em;
+		text-align: center;
+
+	}
 
 
 }

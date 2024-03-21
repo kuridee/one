@@ -70,7 +70,25 @@
     font-size: 1em;
     color: white;
     margin-top: 10px;
-    border: 1px solid white; } }
+    border: 1px solid white; }
+
+  .content_1 {
+    display: block;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+  .box {
+    height: auto;
+    width: 100lvw;
+    padding-top: 60px; }
+
+  .s1 {
+    max-width: 100%; }
+
+  .caption {
+    color: #A6692D;
+    font-size: 2em;
+    text-align: center; } }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
