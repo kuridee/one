@@ -25,6 +25,13 @@ $textcolor: white;
 		grid-gap: 55px;
 		
 	}
+	.register{
+	background-color: $fcolor;
+	padding: 14px;
+	font-family: $family;
+	font-size: $fsize;
+	color: white;
+	}
 	
 	.logo{
 
@@ -59,7 +66,7 @@ $textcolor: white;
 		
 	 }
 	 .head-text{
-	font-size: 2.5em;
+	font-size: 2em;
 	color: white;
 	padding-left: 2em;
 	padding-right: 2em;
