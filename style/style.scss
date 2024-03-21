@@ -22,10 +22,10 @@ $textcolor: white;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		grid-gap: 55px;
+		grid-gap: 60px;
 		
 	}
-	.register{
+	.login{
 	background-color: $fcolor;
 	padding: 14px;
 	font-family: $family;
@@ -36,7 +36,7 @@ $textcolor: white;
 	.logo{
 
 		height: 80px;
-		border: 1px solid black;
+		
 	
 	}
 	i{
