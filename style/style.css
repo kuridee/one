@@ -98,7 +98,9 @@
     height: 250px;
     width: 100lvw;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px; }
+    padding: 20px;
+    padding-bottom: 80px;
+    padding-top: 80px; }
 
   .mid-content {
     font-size: 30px; }
@@ -116,7 +118,87 @@
     display: block; }
 
   .md-image {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .md-bottom {
+    height: 250px;
+    width: 100lvw; }
+
+  .sbtn {
+    background-color: #A6692D;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-top: 10px;
+    border: 1px solid white; }
+
+  .inp {
+    height: 32px;
+    width: 250px; }
+
+  .md-bottom {
+    padding: 20px;
+    display: block;
+    height: 250px;
+    width: 100lvw;
+    padding-top: 80px;
+    padding-bottom: 50px; }
+
+  .md-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6692D;
+    font-size: 20px; }
+
+  .md-caption_2 {
+    width: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 1em;
+    color: grey; }
+
+  .footer {
+    background-color: ghostwhite;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-top: 60px; }
+
+  .footer-cap {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6692D;
+    font-size: 20px; }
+
+  .f-text {
+    font-size: 14px;
+    line-height: 20px;
+    width: 300px;
+    text-align: justify;
+    margin-top: 10px;
+    color: gray; }
+
+  .f2-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    color: gray; }
+
+  .list {
+    display: block;
+    padding: 10px; }
+
+  ul, li {
+    list-style: none;
+    padding: 10px; }
+
+  .email {
+    text-align: center; }
+
+  label {
+    padding-bottom: 20px; }
+
+  .f-t1 {
+    color: #A6692D; } }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
