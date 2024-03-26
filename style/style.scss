@@ -1,9 +1,9 @@
-$fsize: 1em;
+$fsize: 1.5em;
 $fcolor: #A6692D;;
 $bgcolor:white;
 $padding: 16px;
-$family: Arial, Helvetica, sans-serif;
-$textcolor: white;
+$family:  "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$textcolor: black;
 
 *{
 	margin: 0;
@@ -18,13 +18,28 @@ $textcolor: white;
 	.header{
 		background-color: $bgcolor;
 		width: 100lvw;
-		height: 130px;
+		height: 100px;
+		display: flex;
+			
+	}
+	.main_logo,
+	.my_icon{
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		grid-gap: 60px;
-		
+		padding: 20px;
 	}
+	.my_icon{
+		margin-left: auto;
+	}
+
+	.nav_1{
+		display: none;
+	}
+	.nav_2{
+		display: none;
+	}
+	
+
 	.login{
 	background-color: $fcolor;
 	padding: 14px;
@@ -44,14 +59,14 @@ $textcolor: white;
 	}
 	 .container{
 
-	background-image: url('../sofa2.jpeg');
+	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	height: 500px;
 	width: 100lvw;
-	background-color: gray;
+	
 	background-blend-mode: multiply;
 	 }
 
@@ -66,10 +81,10 @@ $textcolor: white;
 		
 	 }
 	 .head-text{
-	font-size: 2em;
-	color: white;
-	padding-left: 2em;
-	padding-right: 2em;
+	font-size: 4em;
+	color: black;
+	padding-left: 1em;
+	padding-right: 1em;
 	font-family: $family;
 	font-weight: bold;
 	 }
@@ -77,7 +92,7 @@ $textcolor: white;
 		font-family: $family;
 		color: $textcolor;
 		font-size: $fsize;
-		letter-spacing: 1.6px;
+		letter-spacing: 2px;
 		line-height: 20px;
 		padding-left: 40px ;
 		padding-right: 40px;
@@ -103,13 +118,10 @@ $textcolor: white;
 		height: auto;
 		width: 100lvw;
 		padding-top: 60px;
-		
-	
-	
 	}
 	.s1{
 		
-		max-width: 100%;
+	height: 100px;
 		
 	}
 	
@@ -247,18 +259,41 @@ $textcolor: white;
 
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 768px) {
 
 	.header{
 		background-color: $bgcolor;
 		width: 100lvw;
-		height: 130px;
+		height: 100px;
+		display: flex;
+			
+	}
+	.main_logo,
+	.my_icon{
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		grid-gap: 60px;
-		
+		padding: 20px;
 	}
+	.my_icon{
+		margin-left: auto;
+	}
+	.nav_2{
+		display: none;
+	}
+
+	.nav_1{
+		display: inline;
+	}
+
+
+	ul, li, a {
+		text-decoration: none;
+		list-style: none;
+		padding: 10px;
+		font-family: $family;
+		color: $fcolor;
+	}
+
 	.login{
 	background-color: $fcolor;
 	padding: 14px;
@@ -266,6 +301,10 @@ $textcolor: white;
 	font-size: $fsize;
 	color: white;
 	}
+
+	
+
+
 	
 	.logo{
 
@@ -278,14 +317,14 @@ $textcolor: white;
 	}
 	 .container{
 
-	background-image: url('../sofa2.jpeg');
+
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	height: 500px;
 	width: 100lvw;
-	background-color: gray;
+	
 	background-blend-mode: multiply;
 	 }
 
@@ -300,8 +339,8 @@ $textcolor: white;
 		
 	 }
 	 .head-text{
-	font-size: 2em;
-	color: white;
+	font-size: 3em;
+	color: black;
 	padding-left: 2em;
 	padding-right: 2em;
 	font-family: $family;
@@ -312,9 +351,9 @@ $textcolor: white;
 		color: $textcolor;
 		font-size: $fsize;
 		letter-spacing: 1.6px;
-		line-height: 20px;
-		padding-left: 40px ;
-		padding-right: 40px;
+		line-height: 25px;
+		padding-left: 80px ;
+		padding-right: 80px;
 	}
 	.shop-now{
 		background-color: $fcolor;
@@ -485,12 +524,38 @@ $textcolor: white;
 	.header{
 		background-color: $bgcolor;
 		width: 100lvw;
-		height: 130px;
+		height: 80px;
+		display: flex;
+		border: .5px solid rgb(240, 237, 237);
+		box-shadow: 8px 2px 8px rgba(207, 202, 202, 0.5);
+			
+	}
+	.main_logo,
+	.my_icon{
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		grid-gap: 60px;
+		padding: 20px;
+	}
+	.my_icon{
+		margin-left: auto;
+	}
+
+	.nav_1, .nav_2{
+		display: inline;
+	}
+	.icon{
+		display: none;
+	}
+
+
+	ul, li, a {
+		text-decoration: none;
+		list-style: none;
+		padding: 20px;
+		font-family: $family;
+		font-size: 16px;
 		
+		color: black;
 	}
 	.login{
 	background-color: $fcolor;
@@ -511,19 +576,19 @@ $textcolor: white;
 	}
 	 .container{
 
-	background-image: url('../sofa2.jpeg');
+	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	height: 500px;
+	height: 100vh;
 	width: 100lvw;
-	background-color: gray;
+	
 	background-blend-mode: multiply;
 	 }
 
 	 .container-text{
-		height: 500px;
+	height: 100vh;
 		width: 100lvw;
 		display: flex;
 		align-items: center;
@@ -533,10 +598,10 @@ $textcolor: white;
 		
 	 }
 	 .head-text{
-	font-size: 2em;
-	color: white;
-	padding-left: 2em;
-	padding-right: 2em;
+	font-size: 5em;
+	color: black;
+	padding-left: 3em;
+	padding-right: 3em;
 	font-family: $family;
 	font-weight: bold;
 	 }
@@ -545,24 +610,26 @@ $textcolor: white;
 		color: $textcolor;
 		font-size: $fsize;
 		letter-spacing: 1.6px;
-		line-height: 20px;
-		padding-left: 40px ;
-		padding-right: 40px;
+		line-height: 35px;
+		padding-left: 400px;
+		padding-right: 400px;
 	}
 	.shop-now{
 		background-color: $fcolor;
 		padding: 15px;
 		font-family: $family;
-		font-size: $fsize;
+		font-size: 16px;
 		color: white;
+		width: 200px;
 		margin-top: 10px;
 		border: 1px solid white;
 	}
 
 	.content_1{
-		display: block;
-		padding-top: 40px;
+		display: flex;
+		text-align: center;
 		font-family: $family;
+
 	}
 
 	.box{
@@ -576,7 +643,7 @@ $textcolor: white;
 	}
 	.s1{
 		
-		max-width: 100%;
+		height: 200px;
 		
 	}
 	
@@ -584,11 +651,13 @@ $textcolor: white;
 		color: $fcolor;
 		font-size: 2em;
 		text-align: center;
+		font-family: $family;
 
 	}
 	.mid-content{
 		color: $fcolor;
 		padding-top: 20px;
+
 	}
 
 	.mid-container{
@@ -596,11 +665,45 @@ $textcolor: white;
 		width: 100lvw;
 		font-family: $family;
 		padding: 20px;
-		padding-bottom: 80px;
-		padding-top: 80px;
+		padding-bottom: 200px;
+		padding-top: 200px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 220px;
+	}
+
+	.box_mid{
+		height: 600px;
+		width: 625px;
+		overflow: hidden;
+		padding: 15px;
+		
+	}
+
+	.mid_text{
+		font-family: $family;
+		font-size: 50px;
+		margin-bottom: 40px;
+
+	}
+	.image{
+		height: 700px;
+	}
+
+	.image_gif{
+		height: 500px;
+	}
+
+	.mid_t{
+		padding: .75em;
+		
+	}
+	.check{
+		float: left;
 	}
 	.mid-content{
 		font-size: 30px;
+	
 	}
 	.mid-center{
 		color: lightgray;
@@ -609,8 +712,41 @@ $textcolor: white;
 		padding: 10px;
 		
 	}
+
+	//MIDDLE
+
+	.middle_new{
+		height: 250px;
+		width: 100lvw;
+		background-color: $fcolor;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: $family;
+		color: white;
+		font-size: 3em;
+		
+
+	}
+
+	.shop{
+		background-color: green;
+		padding: 15px;
+		font-family: $family;
+		font-size: 16px;
+		color: white;
+		width: 200px;
+		margin-top: 10px;
+		border: 1px solid white;
+		margin-left: 30px;
+	}
+
+
+
 	.mid-bottom{
 		line-height: 24px;
+		width: 280px;
+		
 	}
 	.md{
 		display: block;

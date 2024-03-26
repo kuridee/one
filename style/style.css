@@ -7,17 +7,29 @@
   .header {
     background-color: white;
     width: 100lvw;
-    height: 130px;
+    height: 100px;
+    display: flex; }
+
+  .main_logo,
+  .my_icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    grid-gap: 60px; }
+    padding: 20px; }
+
+  .my_icon {
+    margin-left: auto; }
+
+  .nav_1 {
+    display: none; }
+
+  .nav_2 {
+    display: none; }
 
   .login {
     background-color: #A6692D;
     padding: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white; }
 
   .logo {
@@ -27,14 +39,12 @@
     height: 20px; }
 
   .container {
-    background-image: url("../sofa2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 500px;
     width: 100lvw;
-    background-color: gray;
     background-blend-mode: multiply; }
 
   .container-text {
@@ -43,22 +53,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     text-align: center; }
 
   .head-text {
-    font-size: 2em;
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold; }
 
   .head-cap {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1em;
-    letter-spacing: 1.6px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: black;
+    font-size: 1.5em;
+    letter-spacing: 2px;
     line-height: 20px;
     padding-left: 40px;
     padding-right: 40px; }
@@ -66,8 +76,8 @@
   .shop-now {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white;
     margin-top: 10px;
     border: 1px solid white; }
@@ -75,7 +85,7 @@
   .content_1 {
     display: block;
     padding-top: 40px;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
   .box {
     height: auto;
@@ -83,7 +93,7 @@
     padding-top: 60px; }
 
   .s1 {
-    max-width: 100%; }
+    height: 100px; }
 
   .caption {
     color: #A6692D;
@@ -97,7 +107,7 @@
   .mid-container {
     height: 250px;
     width: 100lvw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     padding-bottom: 80px;
     padding-top: 80px; }
@@ -127,8 +137,8 @@
   .sbtn {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white;
     margin-top: 10px;
     border: 1px solid white; }
@@ -146,13 +156,13 @@
     padding-bottom: 50px; }
 
   .md-caption {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
   .md-caption_2 {
     width: 240px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 20px;
     font-size: 1em;
     color: grey; }
@@ -160,12 +170,12 @@
   .footer {
     background-color: ghostwhite;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     padding-top: 60px; }
 
   .footer-cap {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
@@ -200,21 +210,40 @@
   .f-t1 {
     color: #A6692D; } }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 768px) {
   .header {
     background-color: white;
     width: 100lvw;
-    height: 130px;
+    height: 100px;
+    display: flex; }
+
+  .main_logo,
+  .my_icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    grid-gap: 60px; }
+    padding: 20px; }
+
+  .my_icon {
+    margin-left: auto; }
+
+  .nav_2 {
+    display: none; }
+
+  .nav_1 {
+    display: inline; }
+
+  ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #A6692D; }
 
   .login {
     background-color: #A6692D;
     padding: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white; }
 
   .logo {
@@ -224,14 +253,12 @@
     height: 20px; }
 
   .container {
-    background-image: url("../sofa2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 500px;
     width: 100lvw;
-    background-color: gray;
     background-blend-mode: multiply; }
 
   .container-text {
@@ -240,31 +267,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     text-align: center; }
 
   .head-text {
-    font-size: 2em;
-    color: white;
+    font-size: 3em;
+    color: black;
     padding-left: 2em;
     padding-right: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold; }
 
   .head-cap {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: black;
+    font-size: 1.5em;
     letter-spacing: 1.6px;
-    line-height: 20px;
-    padding-left: 40px;
-    padding-right: 40px; }
+    line-height: 25px;
+    padding-left: 80px;
+    padding-right: 80px; }
 
   .shop-now {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white;
     margin-top: 10px;
     border: 1px solid white; }
@@ -272,7 +299,7 @@
   .content_1 {
     display: block;
     padding-top: 40px;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
   .box {
     height: auto;
@@ -294,7 +321,7 @@
   .mid-container {
     height: 250px;
     width: 100lvw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     padding-bottom: 80px;
     padding-top: 80px; }
@@ -324,8 +351,8 @@
   .sbtn {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white;
     margin-top: 10px;
     border: 1px solid white; }
@@ -343,13 +370,13 @@
     padding-bottom: 50px; }
 
   .md-caption {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
   .md-caption_2 {
     width: 240px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 20px;
     font-size: 1em;
     color: grey; }
@@ -357,12 +384,12 @@
   .footer {
     background-color: ghostwhite;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     padding-top: 60px; }
 
   .footer-cap {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
@@ -401,17 +428,39 @@
   .header {
     background-color: white;
     width: 100lvw;
-    height: 130px;
+    height: 80px;
+    display: flex;
+    border: 0.5px solid #f0eded;
+    box-shadow: 8px 2px 8px rgba(207, 202, 202, 0.5); }
+
+  .main_logo,
+  .my_icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    grid-gap: 60px; }
+    padding: 20px; }
+
+  .my_icon {
+    margin-left: auto; }
+
+  .nav_1, .nav_2 {
+    display: inline; }
+
+  .icon {
+    display: none; }
+
+  ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: black; }
 
   .login {
     background-color: #A6692D;
     padding: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white; }
 
   .logo {
@@ -421,55 +470,54 @@
     height: 20px; }
 
   .container {
-    background-image: url("../sofa2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 500px;
+    height: 100vh;
     width: 100lvw;
-    background-color: gray;
     background-blend-mode: multiply; }
 
   .container-text {
-    height: 500px;
+    height: 100vh;
     width: 100lvw;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     text-align: center; }
 
   .head-text {
-    font-size: 2em;
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: black;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: bold; }
 
   .head-cap {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: black;
+    font-size: 1.5em;
     letter-spacing: 1.6px;
-    line-height: 20px;
-    padding-left: 40px;
-    padding-right: 40px; }
+    line-height: 35px;
+    padding-left: 400px;
+    padding-right: 400px; }
 
   .shop-now {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
     color: white;
+    width: 200px;
     margin-top: 10px;
     border: 1px solid white; }
 
   .content_1 {
-    display: block;
-    padding-top: 40px;
-    font-family: Arial, Helvetica, sans-serif; }
+    display: flex;
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
   .box {
     height: auto;
@@ -477,12 +525,13 @@
     padding-top: 60px; }
 
   .s1 {
-    max-width: 100%; }
+    height: 200px; }
 
   .caption {
     color: #A6692D;
     font-size: 2em;
-    text-align: center; }
+    text-align: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
   .mid-content {
     color: #A6692D;
@@ -491,10 +540,36 @@
   .mid-container {
     height: 250px;
     width: 100lvw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
-    padding-bottom: 80px;
-    padding-top: 80px; }
+    padding-bottom: 200px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 220px; }
+
+  .box_mid {
+    height: 600px;
+    width: 625px;
+    overflow: hidden;
+    padding: 15px; }
+
+  .mid_text {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 50px;
+    margin-bottom: 40px; }
+
+  .image {
+    height: 700px; }
+
+  .image_gif {
+    height: 500px; }
+
+  .mid_t {
+    padding: .75em; }
+
+  .check {
+    float: left; }
 
   .mid-content {
     font-size: 30px; }
@@ -505,8 +580,31 @@
   .mid-content, .mid-center, .mid-bottom {
     padding: 10px; }
 
+  .middle_new {
+    height: 250px;
+    width: 100lvw;
+    background-color: #A6692D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: white;
+    font-size: 3em; }
+
+  .shop {
+    background-color: green;
+    padding: 15px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid white;
+    margin-left: 30px; }
+
   .mid-bottom {
-    line-height: 24px; }
+    line-height: 24px;
+    width: 280px; }
 
   .md {
     display: block; }
@@ -521,8 +619,8 @@
   .sbtn {
     background-color: #A6692D;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.5em;
     color: white;
     margin-top: 10px;
     border: 1px solid white; }
@@ -540,13 +638,13 @@
     padding-bottom: 50px; }
 
   .md-caption {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
   .md-caption_2 {
     width: 240px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 20px;
     font-size: 1em;
     color: grey; }
@@ -554,12 +652,12 @@
   .footer {
     background-color: ghostwhite;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     padding-top: 60px; }
 
   .footer-cap {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #A6692D;
     font-size: 20px; }
 
