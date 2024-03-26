@@ -1,0 +1,135 @@
+.container{
+	background-image: url('../sofa2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100lvh;
+	width: 100lvw;
+	background-color: gray;
+	background-blend-mode: multiply;
+
+}
+
+.container-text{
+	height: 100lvh;
+	width: 100lvw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+
+
+
+	
+}
+.header{
+	background-color: $bgcolor;
+	height: 8rem;
+	width: 100lvw;
+	display: flex;
+	align-items: center;
+}
+.icon{
+	display: none;
+}
+
+
+
+ul, li, a{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	padding-left: .75em;
+	color: $fcolor;
+	font-family: $family;
+	font-size: $fsize ;
+}
+.head-text{
+	font-size: 5em;
+	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: $family;
+	font-weight: bold;
+}
+.head-cap{
+	font-family: $family;
+	color: $textcolor;
+	font-size: $fsize;
+	letter-spacing: 1.6px;
+}
+
+.shop-now{
+	background-color: $fcolor;
+	padding: 20px;
+	font-family: $family;
+	font-size: $fsize;
+	color: white;
+	margin-top: 2em;
+}
+
+.logopng{
+	max-width: 100%;
+	height: 60px;
+	border: 1px solid gray;
+	margin-left: 80px;
+}
+.nav-login{
+	margin-left: 400px;
+
+}
+
+.register{
+	background-color: $fcolor;
+	padding: 14px;
+	font-family: $family;
+	font-size: $fsize;
+	color: white;
+	
+}
+
+<div class="container">
+		<div class="header">
+			<div class="icon">
+				
+			</div>
+			<img src="newl.png" class="logopng"> 
+			
+		<nav class="navigation">
+			
+			<ul>
+	
+				<li><a href=""> Leader Sofa</a></li>
+				<li><a href=""> Fabric Sofa</a></li>
+					<li><a href="">Sofa Sets</a></li>
+						<li><a href="">About Us</a></li>
+							<li><a href="">Contact</a></li>
+			</ul>
+
+			<ul class="nav-login">
+				<li><a href="">Login</a></li>
+				<li><a href=""  class="register">Register</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container-text">
+		<div>
+		
+	<p class="head-text">SOFAS THAT BRIGHTEN EVERY ROOM</p>
+	<p class="head-cap">All thoughtfully designed and meticulously crafted furniture, for your home sweet home.</p>
+	<a href="" class="shop-now">Shop now</a>
+		</div>
+	</div>
+
+	</div>
+
+
+	<script type="text/javascript">
+	
+		function toggleNavigation() {
+		  var navigation = document.querySelector('.navigation');
+		  navigation.style.display = (navigation.style.display === 'block') ? 'none' : 'block';
+		}
+		
+		</script>

@@ -110,6 +110,7 @@ $textcolor: white;
 	.s1{
 		
 		max-width: 100%;
+		
 	}
 	
 	.caption{
@@ -117,6 +118,30 @@ $textcolor: white;
 		font-size: 2em;
 		text-align: center;
 
+	}
+	.mid-content{
+		color: $fcolor;
+		padding-top: 20px;
+	}
+
+	.mid-container{
+		height: 250px;
+		width: 100lvw;
+		font-family: $family;
+		padding: 20px;
+	}
+	.mid-content{
+		font-size: 30px;
+	}
+	.mid-center{
+		color: lightgrey;
+	}
+	.mid-content, .mid-center, .mid-bottom{
+		padding: 10px;
+		
+	}
+	.mid-bottom{
+		line-height: 24px;
 	}
 
 

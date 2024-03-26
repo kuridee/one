@@ -88,7 +88,29 @@
   .caption {
     color: #A6692D;
     font-size: 2em;
-    text-align: center; } }
+    text-align: center; }
+
+  .mid-content {
+    color: #A6692D;
+    padding-top: 20px; }
+
+  .mid-container {
+    height: 250px;
+    width: 100lvw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px; }
+
+  .mid-content {
+    font-size: 30px; }
+
+  .mid-center {
+    color: lightgrey; }
+
+  .mid-content, .mid-center, .mid-bottom {
+    padding: 10px; }
+
+  .mid-bottom {
+    line-height: 24px; } }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
