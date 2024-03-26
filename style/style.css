@@ -104,13 +104,19 @@
     font-size: 30px; }
 
   .mid-center {
-    color: lightgrey; }
+    color: lightgray; }
 
   .mid-content, .mid-center, .mid-bottom {
     padding: 10px; }
 
   .mid-bottom {
-    line-height: 24px; } }
+    line-height: 24px; }
+
+  .md {
+    display: block; }
+
+  .md-image {
+    max-width: 100%; } }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 

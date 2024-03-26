@@ -134,7 +134,7 @@ $textcolor: white;
 		font-size: 30px;
 	}
 	.mid-center{
-		color: lightgrey;
+		color: lightgray;
 	}
 	.mid-content, .mid-center, .mid-bottom{
 		padding: 10px;
@@ -142,6 +142,12 @@ $textcolor: white;
 	}
 	.mid-bottom{
 		line-height: 24px;
+	}
+	.md{
+		display: block;
+	}
+	.md-image{
+		max-width: 100%;
 	}
 
 
