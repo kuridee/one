@@ -4,6 +4,7 @@ $bgcolor:white;
 $padding: 16px;
 $family:  "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $textcolor: black;
+$caption: 3em;
 
 *{
 	margin: 0;
@@ -724,24 +725,42 @@ $textcolor: black;
 		align-items: center;
 		font-family: $family;
 		color: white;
-		font-size: 3em;
+		font-size: 2em;
 		
 
 	}
 
 	.shop{
-		background-color: green;
+		background-color: white;
 		padding: 15px;
 		font-family: $family;
 		font-size: 16px;
-		color: white;
+		color: black;
 		width: 200px;
 		margin-top: 10px;
 		border: 1px solid white;
+		border-radius: 16px;
 		margin-left: 30px;
 	}
 
+	.d-middle{
+		height: 600px;
+		width: 100lvw;
+		padding: 60px;
+	}
 
+	.d-text{
+		font-size: $caption;
+		font-family: $family;
+	}
+
+	.b-handle{
+		display: flex;
+		gap: 10px;
+	}
+	.b-image{
+		height: 60px;
+	}
 
 	.mid-bottom{
 		line-height: 24px;
